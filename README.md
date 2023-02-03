@@ -55,8 +55,17 @@ Optimization Model 3
 - Neurons: 1st Hidden Layer - 20, 2nd Hidden Layer - 8, 3rd Hidden Layer - 12
 - Layers: 5. Input Layer, Hidden Layer #1, Hidden layer #2, Hidden Layer #3, Output Layer
 - Activation functions: Tanh(Hidden Layer #1), Relu(Hidden Layer #2), Sigmoid(Hidden Layer #3), Sigmoid(Output Layer)
-- 
+ 
 - Were you able to achieve the target model performance?
+
+We were unable to achieve the target model performance metric of 75% in either of our 4 neural networks that we created. 
+
+The results were as follows:
+   - Original Model: 72.7%
+   - Optimization Model 1: 73.1%
+   - Optimization Model 2: 73.4%
+   - Optimization Model 3: 72.8%
+    
 - What steps did you take to try and increase model performance?
 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
