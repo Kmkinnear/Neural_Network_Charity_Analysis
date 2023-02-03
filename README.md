@@ -56,9 +56,7 @@ Optimization Model 3
 - Layers: 5. Input Layer, Hidden Layer #1, Hidden layer #2, Hidden Layer #3, Output Layer
 - Activation functions: Tanh(Hidden Layer #1), Relu(Hidden Layer #2), Sigmoid(Hidden Layer #3), Sigmoid(Output Layer)
  
-- Were you able to achieve the target model performance?
-
-We were unable to achieve the target model performance metric of 75% in either of our 4 neural networks that we created. 
+Were you able to achieve the target model performance? - We were unable to achieve the target model performance metric of 75% in either of our 4 neural networks that we created. 
 
 The results were as follows:
    - Original Model: 72.7%
@@ -66,6 +64,8 @@ The results were as follows:
    - Optimization Model 2: 73.4%
    - Optimization Model 3: 72.8%
     
-- What steps did you take to try and increase model performance?
+- What steps did you take to try and increase model performance? - We tried a few different steps to try and increase our model's performance. We tried adding more neurons to our hidden layers. We also experimented with different activation functions in our models across different layers. We also tried adding additional hidden layers. Lastly we tried adjusting the number of epochs that would run in each model to see if we could get any improved results. We saw different numbers in each model although we still fell short of the goal of 75% accuracy.
 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+We tried 3 additional neural network models from our original model. We did not see any significant change despite adding additional layers, adding neurons, changing activation functions, and adjusting the number of ephocs. This makes me believe that we should take a different approach in future analysis and try some different approaches to get out accuracy score up. We could further adjust our input data by dropping columns that don't have a strong influence on the outcome and may be skewing the data. There's also a chance that there are some outliers in the data that could be throwing our model off. One other approach we could use is to adjust the number of bins that we put our binned data in. We can also adjust the size of those bins to create a different number of unique values.
