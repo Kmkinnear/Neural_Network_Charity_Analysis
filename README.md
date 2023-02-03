@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this assignment was to take our charity dataset and see if we could create an effective neural network that is capable of predicting whether applicants will be successfull if they are funded by Alphabet Soup. We build an initial neural network and then attempt to optimize it by testing three additional neural network models. We'll do that by adding more neurons to our hidden layers, using different activation functions in our models, and we also used an approach of adding another hidden layer. We also tried adjusting the number of epochs that would run in each model.
+The purpose of this assignment was to take our charity dataset and see if we could create an effective neural network that can predict whether applicants will be successful if they are funded by Alphabet Soup. We build an initial neural network and then attempt to optimize it by testing three additional neural network models. We'll do that by adding more neurons to our hidden layers, using different activation functions in our models, and we also used an approach of adding another hidden layer. We also tried adjusting the number of epochs that would run in each model.
 
 ## Results:
 
@@ -16,7 +16,7 @@ The purpose of this assignment was to take our charity dataset and see if we cou
 
 <img width="728" alt="image" src="https://user-images.githubusercontent.com/110848660/216507921-f965db27-3794-4c7b-9976-da173234bf27.png">
 
-- What variable(s) are neither targets nor features, and should be removed from the input data? We had two variables in this challenge that were neither a target or a feature. Those two variables were EIN and NAME. We ended up dropping those two variables from our data set as you can see in the picture below.
+- What variable(s) are neither targets nor features, and should be removed from the input data? We had two variables in this challenge that were neither a target nor a feature. Those two variables were EIN and NAME. We ended up dropping those two variables from our data set as you can see in the picture below.
 
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/110848660/216507744-22e0a095-9b98-43f1-86e4-33a977e0382d.png">
 
@@ -64,8 +64,10 @@ The results were as follows:
    - Optimization Model 2: 73.4%
    - Optimization Model 3: 72.8%
     
-- What steps did you take to try and increase model performance? - We tried a few different steps to try and increase our model's performance. We tried adding more neurons to our hidden layers. We also experimented with different activation functions in our models across different layers. We also tried adding additional hidden layers. Lastly we tried adjusting the number of epochs that would run in each model to see if we could get any improved results. We saw different numbers in each model although we still fell short of the goal of 75% accuracy.
+- What steps did you take to try and increase model performance? - We tried a few different steps to try and increase our model's performance. We tried adding more neurons to our hidden layers. We also experimented with different activation functions in our models across different layers. We also tried adding additional hidden layers. Lastly, we tried adjusting the number of epochs that would run in each model to see if we could get any improved results. We saw different numbers for each model although we still fell short of the goal of 75% accuracy.
 
-### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+### Summary:
 
-We tried 3 additional neural network models from our original model. We did not see any significant change despite adding additional layers, adding neurons, changing activation functions, and adjusting the number of ephocs. This makes me believe that we should take a different approach in future analysis and try some different approaches to get out accuracy score up. We could further adjust our input data by dropping columns that don't have a strong influence on the outcome and may be skewing the data. There's also a chance that there are some outliers in the data that could be throwing our model off. One other approach we could use is to adjust the number of bins that we put our binned data in. We can also adjust the size of those bins to create a different number of unique values.
+We tried 3 additional neural network models from our original model. We did not see any significant change despite adding additional layers, adding neurons, changing activation functions, and adjusting the number of epochs. This makes me believe that we should take a different approach in future analysis and try some different approaches to get our accuracy score up. 
+
+We could further adjust our input data by dropping columns that don't have a strong influence on the outcome and may be skewing the data. There's also a chance that there are some outliers in the data that could be throwing our model off. One other approach we could use is to adjust the number of bins that we put our binned data in. We can also adjust the size of those bins to create a different number of unique values.
